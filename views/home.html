@@ -1,0 +1,6 @@
+<div ng-repeat="data in pageData | filter: { pageTitle: 'Home' }" class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">{{data.pageTitle}}</h2>
+    </div>
+    <div class="panel-body">{{data.pageDiscirption}}</div>
+</div>
